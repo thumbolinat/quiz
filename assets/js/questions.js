@@ -2,57 +2,57 @@
 let questions = [
   {
   numb: 1,
-  question: "What does HTML stand for?",
-  answer: "Hyper Text Markup Language",
+  question: "What is the capital city of Australia?",
+  answer: "Canberra",
   options: [
-    "Hyper Text Preprocessor",
-    "Hyper Text Markup Language",
-    "Hyper Text Multiple Language",
-    "Hyper Tool Multi Language"
+    "Sydney",
+    "Canberra",
+    "Perth",
+    "Melbourn"
   ]
 },
   {
   numb: 2,
-  question: "What does CSS stand for?",
-  answer: "Cascading Style Sheet",
+  question: "What is the capital city of Brazil?",
+  answer: "Brasilia",
   options: [
-    "Common Style Sheet",
-    "Colorful Style Sheet",
-    "Computer Style Sheet",
-    "Cascading Style Sheet"
+    "Rio De Janeiro",
+    "Sao Paulo",
+    "Salvador",
+    "Brasilia"
   ]
 },
   {
   numb: 3,
-  question: "What does PHP stand for?",
-  answer: "Hypertext Preprocessor",
+  question: "What is the capital city of Switzerland?",
+  answer: "Bern",
   options: [
-    "Hypertext Preprocessor",
-    "Hypertext Programming",
-    "Hypertext Preprogramming",
-    "Hometext Preprocessor"
+    "Geneva",
+    "Zurich",
+    "Bern",
+    "St. Gallen"
   ]
 },
   {
   numb: 4,
-  question: "What does SQL stand for?",
-  answer: "Structured Query Language",
+  question: "What is the capital city of Turkey?",
+  answer: "Ankara",
   options: [
-    "Stylish Question Language",
-    "Stylesheet Query Language",
-    "Statement Question Language",
-    "Structured Query Language"
+    "Ankara",
+    "Istanbul",
+    "Konya",
+    "Gaziantep"
   ]
 },
   {
   numb: 5,
-  question: "What does XML stand for?",
-  answer: "eXtensible Markup Language",
+  question: "What is the capital city of South Africa?",
+  answer: "Pretoria",
   options: [
-    "eXtensible Markup Language",
-    "eXecutable Multiple Language",
-    "eXTra Multi-Program Language",
-    "eXamine Multiple Language"
+    "Johannesburg",
+    "Pretoria",
+    "Cape Town",
+    "Durban"
   ]
 },
 // you can uncomment the below codes and make duplicate as more as you want to add question

@@ -8,7 +8,7 @@
 }
 
 body{
-    background: #007bff;
+    background: #67d1e4;
 }
 
 ::selection{
@@ -372,12 +372,33 @@ footer button.show{
     background: #0263ca;
 }
 
-.buttons button.quit{
+.buttons button.save_score{
     color: #007bff;
     background: #fff;
 }
 
-.buttons button.quit:hover{
+.buttons button.save_score:hover{
     color: #fff;
     background: #007bff;
+}
+.save_score {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+textarea {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: bottom 2px;;
+    width: auto;
+    height: auto;
+    color: #007bff;
+    background: #fff;
+    border-radius: 5px;
+    border: solid #007bff;
+    font-weight:bold;
+    font-size: large;
+    
+
 }
