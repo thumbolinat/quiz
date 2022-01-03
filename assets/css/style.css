@@ -8,11 +8,11 @@
 }
 
 body{
-    background: #007bff;
+    background: bisque;
 }
 
 ::selection{
-    color: #fff;
+    color: bisque;
     background: #007bff;
 }
 
@@ -380,4 +380,13 @@ footer button.show{
 .buttons button.quit:hover{
     color: #fff;
     background: #007bff;
+
+}
+textarea {
+    color: #007bff;
+    background: #fff;
+    border:#007bff solid 1px;
+    
+
+    
 }
