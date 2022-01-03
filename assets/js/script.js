@@ -9,7 +9,7 @@ var option_list = document.querySelector(".option_list");
 var time_line = document.querySelector("header .time_line");
 var timeText = document.querySelector(".timer .time_left_txt");
 var timeCount = document.querySelector(".timer .timer_sec");
-var userName = document.querySelector(".user-name")
+
 
 var timeValue =  60;
 var que_count = 0;
@@ -39,7 +39,7 @@ continue_btn.onclick = ()=>{
 }
 
 var restart_quiz = result_box.querySelector(".buttons .restart");
-var quit_quiz = result_box.querySelector(".buttons .quit");
+//var quit_quiz = result_box.querySelector(".buttons .quit");
 
 // if restartQuiz button clicked
 restart_quiz.onclick = ()=>{
@@ -47,10 +47,10 @@ restart_quiz.onclick = ()=>{
     
 }
 
-// if quitQuiz button clicked
-quit_quiz.onclick = ()=>{
-    window.location.reload(); //reload the current window
-}
+
+// quit_quiz.onclick = ()=>{
+//     window.location.reload(); //reload the current window
+// }
 
 var next_btn = document.querySelector("footer .next_btn");
 var bottom_ques_counter = document.querySelector("footer .total_que");

@@ -11,7 +11,7 @@ To create a quiz that will ask user set questions with score keeper and timer.
 
 
 ## Website
-https://thumbolinat.github.io/password/  
+https://thumbolinat.github.io/quiz/  
 
 ## Contribution
-Made THUMBOLINA T
+THUMBOLINA T
