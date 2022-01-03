@@ -130,9 +130,9 @@ function showResult(){
     if (userScore > 15){ 
         
         let scoreTag = '<span>Wow!  Your score is <p>'+ userScore +'</p> out of <p>'+ 25 +'</p></span>';
-        scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
+        scoreText.innerHTML = scoreTag;  
     }
-    else if(userScore > 5){ // if user scored more than 1
+    else if(userScore > 5){ 
         let scoreTag = '<span>Your score is  <p>'+ userScore +'</p> out of <p>'+ 25 +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
