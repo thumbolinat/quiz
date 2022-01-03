@@ -26,6 +26,8 @@ body{
     transform: translate(-50%, -50%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+                
 }
 
 .info_box.activeInfo,
@@ -110,7 +112,7 @@ body{
 .quiz_box{
     width: 550px;
     background: #fff;
-    border-radius: 5px;
+   border:none !important;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
     pointer-events: none;
@@ -168,13 +170,8 @@ body{
     user-select: none;
 }
 
-.quiz_box header .time_line{
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    height: 3px;
-    background: #007bff;
-}
+
+
 
 section{
     padding: 25px 30px 20px 30px;

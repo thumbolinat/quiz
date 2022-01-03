@@ -137,7 +137,7 @@ function showResult(){
         scoreText.innerHTML = scoreTag;
     }
     else{ 
-        var scoreTag = '<span>and sorry , but your score is only <p>'+ userScore +'</p> out of <p>'+ 25 +'</p></span>';
+        var scoreTag = '<span> You only scored <p>'+ userScore +'</p> out of <p>'+ 25 +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
 }
